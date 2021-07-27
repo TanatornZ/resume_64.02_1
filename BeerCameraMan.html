@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class='navbar navbar-expand-sm navbar-dark bg-dark '>
+        <div class="container">
+            <h1 class='navbar-brand'>Naturals</h1>
+            <!-- navbar Name -->
+
+            <button class='navbar-toggler' data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class='navbar-toggler-icon'></span>
+            </button>
+            <!-- icon สำหรับหน้าจอ โทรศัพท์ -->
+
+            <div id="navbar1" class="navbar-collapse collapse">
+                <ul class='navbar-nav ms-auto'>
+                    <li class='navitem'>
+                        <a href="index.html" class='nav-link text-center'> หน้าแรก </a>
+                    </li>
+                    <li class='navitem'>
+                        <a href="#about-me" class='nav-link text-center'> เกี่ยวกับเรา </a>
+                    </li>
+                    <li class='navitem'>
+                        <a href="#gallery" class='nav-link text-center'> ผลงานของเรา </a>
+                    </li>
+                    <li class='navitem'>
+                        <a href="#" class='nav-link text-center' data-bs-target="#mymodal" data-bs-toggle='modal'>ติดต่องาน </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+            <!-- แสดงเมนูสำหรับหน้าจอใหญ่ -->
+
+            <!-- strat carousel -->
+            <section id='slider' >
+
+                <div id="imageslide" class="carousel slide" data-bs-ride='carousel'>
+                    <!-- button bottom caption -->
+                    <ol class='carousel-indicators'>
+                        <button type="button" data-bs-target="#imageslide" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#imageslide" data-bs-slide-to="1" ></button>
+                        <button type="button" data-bs-target="#imageslide" data-bs-slide-to="2" ></button>
+                        <button type="button" data-bs-target="#imageslide" data-bs-slide-to="3" ></button>
+                       
+                    </ol>
+                    
+                    <div class="carousel-inner">
+                        <!-- slide 1 -->
+                        <div class="carousel-item carousel-image-1 active">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h2>Mountain</h2>
+                                     <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- slide 2 -->
+                        <div class="carousel-item carousel-image-2">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h2>beach</h2>
+                                     <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- slide 3 -->
+                        <div class="carousel-item carousel-image-3">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h2>sea</h2>
+                                     <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- slide 4 -->
+                        <div class="carousel-item carousel-image-4">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h2>farm</h2>
+                                     <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- next and previous slide -->
+
+                    <!-- Previous -->
+                    <button class='carousel-control-prev' type='button' data-bs-target='#imageslide' data-bs-slide='prev' >
+                        <span class='carousel-control-prev-icon' aria-hidden="true"></span>
+                    </button>
+
+                    <!-- Next -->
+                    <button class='carousel-control-next' type='button' data-bs-target='#imageslide' data-bs-slide='next' >
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+
+                </div>
+                
+
+            </section>
+
+
+        <!-- service -->
+
+        <section id='service' class='py-5'>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 text-center mb-4">
+                        <i class="fas fa-hiking fa-3x mb-2"></i>
+                        <!-- fa-3x ขยาย 3x -->
+                        <h3>ไกด์นำเที่ยว</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam voluptate tempora vitae rerum, optio fugiat quasi est minima adipisci.</p>
+                    </div>
+                    <div class="col-md-4 text-center mb-4">
+                        <i class="fas fa-camera fa-3x mb-2"></i>
+                        <h3>ถ่ายภาพ</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam voluptate tempora vitae rerum, optio fugiat quasi est minima adipisci.</p>
+                   
+                    </div>
+                    <div class="col-md-4 text-center mb-4">
+                        <i class="fas fa-photo-video fa-3x mb-2"></i>
+                        <h3>ตกแต่งรูป</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam voluptate tempora vitae rerum, optio fugiat quasi est minima adipisci.</p>
+                   
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- about me -->
+        <section id='about-me' class='p-5 bg-dark'> 
+            <div class="dark-overlay">
+                <div class="row">
+                    <div class="col">
+                        <div class="container pt-5">
+                            <div class="text-center text-white">
+                                <h2>เกี่ยวกับเรา</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem mollitia aliquam officiis recusandae repellendus quas porro eos eligendi maxime aut modi ut molestiae suscipit laborum quia nisi aliquid, maiores quidem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- gallery -->
+        <section id="gallery" class='py-5'>
+            <div class="container">
+                <div class="text-center">
+                    <h1 >ผลงานของเรา</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam sint voluptate totam illum ex nesciunt libero similique aspernatur eum quia.</p>
+                </div>    
+                <div class="img-block">
+                    <div class="row justify-content-between mt-4">
+                        <div class="col-md-4 my-3">
+                            <img src="https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class='img-thumbnail'>
+                        </div>
+                        <div class="col-md-4 my-3">
+                            <img src="https://images.pexels.com/photos/1172518/pexels-photo-1172518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class='img-thumbnail'>
+                        </div>
+                        <div class="col-md-4 my-3">
+                            <img src="https://images.pexels.com/photos/3601425/pexels-photo-3601425.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class='img-thumbnail'>
+                        </div>
+                            
+                    </div>
+                    <div class="row md-4 mt-4">
+                        <div class="col-md-4 my-3">
+                            <img src="https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class='img-thumbnail'>
+                        </div>
+                        <div class="col-md-4 my-3">
+                            <img src="https://images.pexels.com/photos/1172518/pexels-photo-1172518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class='img-thumbnail'>
+                        </div>
+                        <div class="col-md-4 my-3">
+                            <img src="https://images.pexels.com/photos/3601425/pexels-photo-3601425.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class='img-thumbnail'>
+                        </div>
+                    </div>
+                    <div class="row md-4 mt-4">
+                        <div class="col-md-4 mt-3">
+                            <img src="https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class='img-thumbnail'>
+                        </div>
+                        <div class="col-md-4 mt-3">
+                            <img src="https://images.pexels.com/photos/1172518/pexels-photo-1172518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class='img-thumbnail'>
+                        </div>
+                        <div class="col-md-4 mt-3">
+                            <img src="https://images.pexels.com/photos/3601425/pexels-photo-3601425.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class='img-thumbnail'>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+
+        <footer class="text-center p-4">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p>Copyright &copy; Tanatorn</p>
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
+
+
+        <!-- modal -->
+
+        <div class="modal gade" id='mymodal'>
+
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- have 3 part -->
+    
+                    <div class="modal-header">
+                      <h5 class='modal-title'>ลงทะเบียน</h5>
+                      <button type="button" class="btn close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+    
+                    <div class="modal-body">
+                      <form action="">
+                        <div class="form-group">
+                          <label for="">Name</label>
+                          <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                          <label for="">last name</label>
+                          <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                          <label for="">Phone number</label>
+                          <input type="text" class="form-control">
+                        </div>
+                      </form>
+                    </div>
+    
+                    <div class="modal-footer">
+                        <button type="button" class='btn btn-secondary' data-bs-dismiss='modal'>cancel</button>
+                        <button type='button' class="btn btn-success">comfirm</button>
+    
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script>
+            var myModal = document.getElementById('myModal')
+            var myInput = document.getElementById('myInput')
+            
+            myModal.addEventListener('shown.bs.modal', function () {
+              myInput.focus()
+            })
+        </script>
+</body>
+</html>
