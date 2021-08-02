@@ -9,7 +9,7 @@ body{
 }
 
 .carousel-image-1 {
-    background-image: url('Mountain.jpeg') ;
+    background-image: url('slider/3700.jpg') ;
     background-size: cover;
 }
 
@@ -97,17 +97,8 @@ footer{
     border-top: 4px solid red;
 }
 
-footer p {
-    margin-top:5px;
-}
 
-section {
-    height: 100vh;
-    border: 1px solid #333;
-    justify-content:center;
-    align-items: center;
-    display: flex;
-}
+
 
 body::-webkit-scrollbar {
     width: 8px;

@@ -23,19 +23,19 @@
     <nav class='navbar navbar-expand-sm navbar-dark bg-dark fixed-top'>
         <div class="container">
             <div class='navbar-brand'>
-                <img src="icon/icon_2.png" alt=""  style="width:40px; height:40px">
+                <img src="icon/icon_2.png" alt=""  style="width:45px; height:45px">
             </div>
-            <!-- navbar Name -->
+            
 
             <button class='navbar-toggler' data-bs-toggle="collapse" data-bs-target="#navbar1">
                 <span class='navbar-toggler-icon'></span>
             </button>
-            <!-- icon สำหรับหน้าจอ โทรศัพท์ -->
+            
 
             <div id="navbar1" class="navbar-collapse collapse">
                 <ul class='navbar-nav'>
                     <li class='navitem'>
-                        <a href="index.html" class='nav-link text-center'> หน้าแรก </a>
+                        <a href="BeerCameraMan.html" class='nav-link text-center'> หน้าแรก </a>
                     </li>
                     <li class='navitem'>
                         <a href="#teach" class='nav-link text-center'> สอนถ่ายภาพ </a>
@@ -44,7 +44,7 @@
                         <a href="#salePhoto" class='nav-link text-center'> ถ่ายภาพ </a>
                     </li>
                     <li class='navitem'>
-                        <a href="#" class='nav-link text-center' data-bs-target="#mymodal" data-bs-toggle='modal'>ขายรูปภาพ </a>
+                        <a href="#gallery"  class='nav-link text-center'>ขายรูปภาพ </a>
                     </li>
 
                 </ul>
@@ -55,10 +55,10 @@
             </form>
         </div>
     </nav>
-            <!-- แสดงเมนูสำหรับหน้าจอใหญ่ -->
+            
 
-            <!-- strat carousel -->
-            <div id='slider' >
+            
+        <div id='slider' >
 
                 <div id="imageslide" class="carousel slide" data-bs-ride='carousel'>
                     <!-- button bottom caption -->
@@ -124,29 +124,33 @@
                 </div>
                 
 
-            </div>
+        </div>
 
 
-        <!-- service -->
+        
 
-        <section id='teach' class='py-5'>
-            <div class="container mt-4">
-                <h1 class='text-center'>คอร์สสอนถ่ายภาพ</h1>
-                <div class="row py-5">
+        <section id='teach' class='vh-100 pt-5 border'>
+            <div class="container">
+                <h1 class='text-center mt-5'>คอร์สสอนถ่ายภาพ</h1>
+                <div class="row pt-5">
                     <div class="col-md-4 text-center mb-4">
                         <div class="">
                             <img src="" alt=""  style='border: 1px solid; width: 300px; height:300px'>
                         </div>
                         <!-- fa-3x ขยาย 3x -->
                         <h3 class="pt-3">ถ่ายภาพ</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam voluptate tempora vitae rerum, optio fugiat quasi est minima adipisci.</p>
+                        <div class="container w-75">
+                            <p class='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam voluptate tempora vitae rerum, optio fugiat quasi est minima adipisci.</p>
+                        </div>
                     </div>
                     <div class="col-md-4 text-center mb-4">
                         <div class="">
                             <img src="" alt=""  style='border: 1px solid; width: 300px; height:300px'>
                         </div>
                         <h3 class="pt-3">ถ่ายวิดีโอ</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam voluptate tempora vitae rerum, optio fugiat quasi est minima adipisci.</p>
+                        <div class="container w-75">
+                            <p class='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam voluptate tempora vitae rerum, optio fugiat quasi est minima adipisci.</p>
+                        </div>
                    
                     </div>
                     <div class="col-md-4 text-center mb-4">
@@ -154,51 +158,90 @@
                             <img src="" alt=""  style='border: 1px solid; width: 300px; height:300px'>
                         </div>
                         <h3 class="pt-3">Full set</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam voluptate tempora vitae rerum, optio fugiat quasi est minima adipisci.</p>
+                        <div class="container w-75">
+                            <p class=" text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam voluptate tempora vitae rerum, optio fugiat quasi est minima adipisci.</p>
+                        </div>
                    
                     </div>
                 </div>
             </div>
         </section>
     
-        <!-- about me -->
-        <section id='salePhoto' class='py-5'>
-            <div class="container mt-4">
-                <h1 class='text-center'>ผลงานของเรา</h1>
-                <div class="row py-5">
-                    <div class="col-md-4 text-center mb-4">
-                        <div class="">
-                            <img src="Model/Sun_Dragon.jpg "  style='border: 1px solid; width: 300px; height:450px'>
+        
+        <section id='salePhoto' class=' py-4 border'>
+            <div class="container mt-5">
+                <h1 class='text-center mt-5'>ผลงานของเรา</h1>
+                <div class="row my-5">
+                    <div class="col-md-4 text-center ">
+                        <div class="container-fluid" >
+                            <img src="Model/Sun_Dragon.jpg " style='width: 300px; height:450px' >
                         </div>
                         <!-- fa-3x ขยาย 3x -->
                         <h3 class="pt-3">Sun Dragon</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam voluptate tempora vitae rerum, optio fugiat quasi est minima adipisci.</p>
-                    </div>
-                    <div class="col-md-4 text-center mb-4">
-                        <div class="">
-                            <img src="Model/flash street.jpg" alt=""  style='border: 1px solid; width: 300px; height:450px'>
+                        <div class="container w-75 ">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam voluptate tempora vitae rerum, optio fugiat quasi est minima adipisci.</p>
+                        </div>
+                                </div>
+                    <div class="col-md-4 text-center" >
+                        <div class="container-fluid" >
+                            <img src="Model/flash street.jpg" alt=""  style='width: 300px; height:450px'>
                         </div>
                         <h3 class="pt-3">Flash street</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam voluptate tempora vitae rerum, optio fugiat quasi est minima adipisci.</p>
-                   
+                        <div class="container w-75 ">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam voluptate tempora vitae rerum, optio fugiat quasi est minima adipisci.</p>
+                        </div>                
                     </div>
-                    <div class="col-md-4 text-center mb-4">
-                        <div class="">
-                            <img src="Model/Rainny.JPG" alt=""  style='border: 1px solid; width: 300px; height:450px'>
+                    <div class="col-md-4 text-center" >
+                        <div class="container-fluid " >
+                            <img src="Model/Rainny.JPG" class="" alt=""  style='width: 300px; height:450px'>
                         </div>
                         <h3 class="pt-3">Rainny</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam voluptate tempora vitae rerum, optio fugiat quasi est minima adipisci.</p>
-                   
+                        <div class="container w-75 ">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam voluptate tempora vitae rerum, optio fugiat quasi est minima adipisci.</p>
+                        </div>                
                     </div>
                 </div>
+
+                <div class="row my-5">
+                    <div class="col-md-4 text-center ">
+                        <div class="container-fluid" >
+                            <img src="Model/Flash street 2.jpg " style='width: 300px; height:200px ;'>
+                        </div>
+                        <!-- fa-3x ขยาย 3x -->
+                        <h3 class="pt-3">Sun Dragon</h3>
+                        <div class="container w-75 ">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam voluptate tempora vitae rerum, optio fugiat quasi est minima adipisci.</p>
+                        </div>
+                                </div>
+                    <div class="col-md-4 text-center" >
+                        <div class="container-fluid" >
+                            <img src="Model/Flash street 3.jpg" alt=""  style='width: 300px; height:200px ;'>
+                        </div>
+                        <h3 class="pt-3">Flash street</h3>
+                        <div class="container w-75 ">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam voluptate tempora vitae rerum, optio fugiat quasi est minima adipisci.</p>
+                        </div>                
+                    </div>
+                    <div class="col-md-4 text-center" >
+                        <div class="container " style='width: 300px; height:400px'>
+                            <img src="Model/Rainny.JPG" class="" alt=""  style="width: 100%; ">
+                        </div>
+                        <h3 class="pt-3">Rainny</h3>
+                        <div class="container w-75 ">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam voluptate tempora vitae rerum, optio fugiat quasi est minima adipisci.</p>
+                        </div>                
+                    </div>
+                </div>
+
+               
             </div>
         </section>
 
     
-        <section id="gallery">
+        <section id="gallery" class=' py-4 border' >
 
-            <div class="container">
-                <div class="text-center">
+            <div class="container mt-4">
+                <div class="text-center mt-5">
                     <h1>ขายรูปภาพ</h1>
                 </div>
                 <div class="row py-5">
@@ -238,7 +281,7 @@
                 </div>
             </div>
         </section>
-        <!-- footer -->
+        
 
         <section id="section-contact">
             <img src="icon/icon_1.png" alt=""  style="width: 300px; height: 300px ; margin-bottom: -40px;">
@@ -260,19 +303,12 @@
             </div>
     
         </section>
-        <footer>
-            <p>
+        <footer >
+            <p class='pt-1'>
                 © Created by beer
             </p>
         </footer>
     </div>
-        <script>
-            var myModal = document.getElementById('myModal')
-            var myInput = document.getElementById('myInput')
-            
-            myModal.addEventListener('shown.bs.modal', function () {
-              myInput.focus()
-            })
-        </script>
+        
 </body>
 </html>
