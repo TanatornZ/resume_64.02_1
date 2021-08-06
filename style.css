@@ -9,22 +9,28 @@ body{
 }
 
 .carousel-image-1 {
-    background-image: url('slider/3700.jpg') ;
+    background-image: url('slider/slider1.jpg') ;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center center;
 }
 
 .carousel-image-2 {
-    background-image: url('beach.jpeg') ;
-    background-size: cover;
+    background-image: url('slider/slider2.jpg') ;
+    background-size: 100% 100%;
+  
+    background-position: center center;
 }
-.carousel-image-3 {
+
+/* .carousel-image-3 {
     background-image: url('sea.jpeg') ;
     background-size: cover;
 }
 .carousel-image-4 {
     background-image: url('farm.jpeg') ;
     background-size: cover;
-}
+} */
 
 
 #section-contact {
